@@ -1171,5 +1171,47 @@ position: relative;
 text-decoration: none;
 }
 
+/*Form*/
 
 
+.title-text{
+margin-left: 192px;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+color: var(--white)
+}
+
+.form{
+position: relative;
+}
+
+.form-input{
+width: 264px;
+height: 40px;
+margin-left: 80px;
+margin-top: 16px;
+padding-left: 16px;
+background: var(--NAVYBLUE);
+border: 1px solid rgba(255, 255, 255, 0.3);
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+border-radius: 4px;
+}
+
+.form-button{
+width: 168px;
+height: 40px;
+margin-left: 16px;
+background: var(--iris);
+border-radius: 4px;   
+}
+
+.form-text{
+font-weight: 700;
+font-size: 16px;
+color: var(--white);
+}
+
+.form-svg{
+fill: var(--white);
+}
