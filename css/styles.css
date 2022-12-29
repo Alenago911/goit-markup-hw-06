@@ -1177,11 +1177,15 @@ text-decoration: none;
 /*work 6 modal*/
 
 .title-two{
-    text-align: center;
-    margin-top: 24px;
-    margin-bottom: 16px;
-    color: #2E2F42;
-    }
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 1.5;
+text-align: center;
+margin-top: 24px;
+margin-bottom: 16px;
+color: #2E2F42;
+}
     
 
 
@@ -1249,6 +1253,16 @@ margin-right: auto;
 .input-modal{
 width: auto;
 height: 40px;
+padding-left: 34px;
+outline: none;
+border: 1px solid rgba(33, 33, 33, 0.2);
+border-radius: 4px;
+}
+
+.input-modal:focus + .svg-form{
+fill: var(--iris);
+border: 1px solid #4D5AE5;
+border-radius: 4px;
 }
 
 .icon-form{
@@ -1260,18 +1274,59 @@ margin-bottom: 8px;
 
 .form-name{
 margin-bottom: 4px;
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 1.2;
+color: #8E8F99;
 }
+
+
 
 .form-tel{
 margin-bottom: 4px;
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 1.2;
+color: #8E8F99;
 }
+
 
 .form-mail{
 margin-bottom: 4px;
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 1.2;
+color: #8E8F99;
 }
 
 .form-comment{
 margin-bottom: 4px;
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 1.2;
+color: #8E8F99;
+}
+
+.placeholder{
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 1.3;
+padding-left: 16px;
+padding-top: 8px;
+color: rgba(117, 117, 117, 0.5);
+outline: none;
+border: 1px solid rgba(33, 33, 33, 0.2);
+border-radius: 4px;
+}
+
+.placeholder:focus{
+border: 1px solid #4D5AE5;
+border-radius: 4px;
 }
 
 .svg-form{
@@ -1281,15 +1336,22 @@ top: 65%;
 left: 5%;
 }
 
+.svg-form:focus{
+    fill: #4D5AE5;
+}
+
 .svg-form_tel{
-top: 5px;
-left: 3px;
+position: absolute;
+transform: translateY(-50%);
+top: 65%;
+left: 5%;
 }
 
 .svg-form_mail{
-
-top: 6px;
-left: 2px;
+position: absolute;
+transform: translateY(-50%);
+top: 65%;
+left: 5%;
 }
 
 textarea{
@@ -1301,15 +1363,39 @@ height: 120px;
 .form-policy{
     margin-top: 16px;
     margin-bottom: 24px;
+    margin-left: 24px;
+    margin-right: 22px;
     color: #2E2F42;
+}
+
+.checkbox:checked + .icon-check{
+background-color: var(--iris);
+background-image: url ('./image3/Vector.svg');
+}
+
+.icon-check{
+display: inline-block;
+width: 16px;
+height: 16px;
+border: 1.25px solid #2E2F42;
+border-radius: 2px;
 }
 
 .policy{
 text-align: center;
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 1.3;
 }
 
 .privacy{
+text-align: center;
 color: var(--iris);
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 1.3;
 }
 
 .submit-button{
